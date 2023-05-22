@@ -1,0 +1,52 @@
+52.44.24.192/ibero/
+    El organigrama ha sido guardada con el nombre:org202005: versión utilizada para evaluación de desempeño de primer semestre de 2020
+
+52.44.24.192:
+    El organigrama ha sido guardada con el nombre:org20200530 -> 267 backup1 arreglos mauricio sandra galindo 0.0.1.3. a gener 
+    El organigrama ha sido guardada con el nombre:org20200530b -> 267 arreglos completos
+
+52.44.24.192/ibero_prueba/:
+    20200529:
+        El organigrama ha sido guardada con el nombre:org20200530 -> 267 backup1 arreglos mauricio
+        El organigrama ha sido guardada con el nombre:org20200529 -> 267 backup ajuste final
+        org20200529
+        El organigrama ha sido guardada con el nombre:org20200529 -> 267 backup ajuste final
+        org20200529
+        org01
+    20200516:
+        El organigrama ha sido guardada con el nombre:real20200527 -> 267 funcionaros montados por RRHH (firefox stndrd ARCHIVAR ORGANIGRAMA SERVIDOR)
+        El organigrama ha sido guardada con el nombre:real1 -> 195 funcionaros montados por RRHH (firefox stndrd)
+        El organigrama ha sido guardada con el nombre:r1 -> error , se puede borrar
+
+localhost:
+    El organigrama ha sido guardada con el nombre:org20200530 -> 267 backup1 arreglos mauricio
+    20200528:
+        El organigrama ha sido guardada con el nombre:org_prueba_20200528 -> 267 funcionarios con corecciones de empresa en 1 cargo inicial y 2 finales
+
+
+52.44.24.192:
+    El organigrama ha sido guardada con el nombre:prueba3 -> 80 funcionarios con nombre (el de recursos humanos)(firefox stndrd)
+    El organigrama ha sido guardada con el nombre:org1 -> organigrama de 190 empleados (firefox stndrd)
+    las respuestas han sido guardadas en:pr1 -> copia de seg prueba2 (firefox developer)
+    las respuestas han sido guardadas en:pr2 -> resultados prueba2 (firefox developer)
+
+     El organigrama ha sido guardada con el nombre:prueba3 -> 80 funcionarios con nombre (el de recursos humanos)(firefox developer)
+     las respuestas han sido guardadas en:pr1 -> ppiloto 3 con 3 evaluadores (firefox stndrd)
+     las respuestas han sido guardadas en:ppiloto3-3 -> error se guardaron resp ppiloto2
+     ppiloto3-3.txt ->  ppiloto 3 con 3 evaluadores (servidor)
+     pp_ppiloto2.txt -> ppiloto 2 con los 17 evaluadores completos
+     
+
+localhost (firefox developer)
+    La estructura ha sido guardada con el nombre:prueba1 -> 18 funcionarios genéricos
+    La estructura ha sido guardada con el nombre:prueba2 -> 125 funcionarios por cargo Ibero
+    El organigrama ha sido guardada con el nombre:prueba3 -> 80 funcionarios con nombre (el de recursos humanos)
+    El organigrama ha sido guardada con el nombre:prueba4 -> el que se usó para prueba piloto rrhh
+    El organigrama ha sido guardada con el nombre:prueba5 -> estructura multinivel para ensayar el nuevo armagrupos
+    El organigrama ha sido guardada con el nombre:prueba6 -> RRHH y Bienestar Prueba Piloto 2
+    El organigrama ha sido guardada con el nombre:xx -> archivo de organigrama que se puede sobreescribir
+
+
+    las respuestas han sido guardadas en:resp1 -> una sola tanda de respuestas de prueba mias
+    las respuestas han sido guardadas en:resp2 -> prueba piloto rrhh
+    las respuestas han sido guardadas en:resp3 -> sobreescrito de resp2 se puede borrar

@@ -1,0 +1,139 @@
+20210626
+  migrar a producción
+  mejorar el mensaje de "VALIDAR" al final de la evaluación
+  incluir el header de sesión en todos los archivos que sean pertinentes para el administrador
+  chequer que quiere decir NaN en funcionalidad de totalizar sueldos del organigrama
+    acabo de subir la última versión a pruebas (con nueva funcionalidad de totalizar sueldos)
+
+20200424    
+    solicitudes lejanas: 
+        hacer control de preguntas completas al final de cada pregunta
+        incluir campos de texto en las evaluaciones para comentarios
+
+20200314
+    Hay que cambiar muchos métodos que están arrancando por "inserta" a "crea" la inserción es debe interpretar como en pregunta, como una asignación a un objeto en particular
+
+20200310
+    Lograr que la conexión de servidor guarde los datos en una BD
+    
+    OK: Lograr hacer el llamado de una función "como parametro" para que genéricamente se pueda recorrer el árbol del organigrama haciendo diversos cálculos{R - se creo la función this.iteraFuncionArbol la cual tiene como parámetros a dos funciones y adempás define la vaiable myself que debe ser usada como variable de entrada a la funcion recursiva como el apuntador al objeto "this". Ejemplos de uso se encuentran a partir de la línea 166 //ensayo de la función de call back en el archivo ensayo_arbol.js}
+    OK: Lograr conexión desde servidor para que el backend mande directamente los JSON y también recopile y procese los JSON de regreso
+
+OK 20210626
+  OK mejorar el aviso al validar el envío de las respuestas en arma_evula2.html
+  OK implmentar el formulario de logout de la sesión
+  OK ensayo de nueva funcionalidad, es medio chimbo el manejo de sesión. Como son HTML se puede entrar directo a los links pero algo es algo
+  OK (pero revisar)  ensayo general de consistencia del aplicativo en pruebas
+      OK: OJO parece que está fallando botón: RECUPERAR Resp Servidor "arma_respuestas.html", pero después de devolverme con "back" y molestar un rato finalmente lo logró
+      PDT: chequer que quiere decir NaN en sumatorias de sueldos del organigrama (esto es de la nueva funionalidad, entonces es valido seguir porque no tinerfiere con funcionalidades anteriores)
+
+OK 20200529
+    OK: arreglar todos los permisos de la carpeta de producción porque nada funciona por haber borrado las capetas {R-toco hacerlo desde la consola de AWS}
+    comparar con el anterior a ver qué paso 
+    OK: mandar el listado a jose luis roncancio de evaluaciones
+
+    NOK:cambiar bd listados al ambiente de produccion {ya no porque se daño}
+    OK 20200530: Daño grave en edita_organigrama.html y edita_organigrama2.html: por un motivo desconocido no está archivando bien el organigrama, parece que archivara una versión "antigua" que está en memoria y no tiene en cuenta los últimos cambios realizados en el organigrama{R-organigrama.serialize: cuando estaba leyendo el arrreglo en memoria estaba incluyendo la ruta y el padre en los datos, y esat info no debería estar en el nodo de información. a última sobreescribiá el serialize y por eso fallaba guargar los movimientos del organigrama}
+    OK 20200530:js_canal.php: se debe poner un link para volver al organigrama y no al menu
+
+OK: 20200526:
+        arma_evalua5.html:
+                incluir al final total de evaluadores, o total de evaluaciones, max y min
+    OK 20200527:edita_organigrama2.html: en niveles imprimir (nivel+1) para que sea más claro
+    OK 20200527: edita_organigrama2.html el botón Quitar Evaluado, quita el evaluado del html pero no del json   
+    OK 20200528: edita_organigrama2.html: incluir en algún lado (asi sea en hover) la posic del nodo en 
+                al final de la tabla sacar algunas cifras consoliodadas como número de empleados
+    OK : Cuando se le da la opción archivar en prueba_organigrama.html y después se recupera el archivo, se pierden los campos de dependencia, entidad y a veces se pierde el salario {R - se arreglo Arbol.unserialize() para que lea la totalidad de campos guardados}
+    OK 20200528: La falla anterior también sucede con ARCHIVAR Organigrama servidor (aunque el json se ve bien, al recuperar al go falla)
+
+OK: 20200502
+    OK: arreglar evalua_dsmpn.js para que nuevamente muestre todas las preguntas, es decir descomentar las que se quitaron
+    OK: arma_evalua4.html: la opción RECUPERAR Respuestas Servidor, recupero la información de respuestas bajo el arbol antiguo y las puso en la nueva estrucutra de árbol y pues se ve muy raro. Debería notificar de la eliminiación o cambio de nombre del Archivo de Respuestas de servidor cuando se carga un nuevo árbol de organigrama {R- esto se arregla haciendo una correcta inicilaización acorde con readem.txt para que los datos empiecen a entrar limpios}
+    OK: quitar el mensajito de "this.accionMenu", de edita_organigrama
+
+OK 20200516
+    OK: quitar el mensaje "dentro archivaServerPequeJSON jsEnvio2" al guardar las preguntas arreglar la última pantalla
+    OK: quitar regresa a inicio ibero evaluator de la respuesta de guardar preguntas
+    OK: probar la creación de archivo .js en /datos con base en el ajuste a js_canal.php que se hizo para hacer una primera versión de guardar el organigrama en el servidor
+    en caso de que funcione, entonces mirar como se modifica edita_organigrama.html, para que pueda recuperar la versión guardada en servidor{R-prueba_organigrama.html}
+
+OK 20200515
+    OK 3. Algunos cargos al momento de crearlos y posteriormente revisarlos desaparecía la información correspondiente a empresa{R: se ajustó organigrama.editar para que recorriera todos los campos}
+    OK 4. Al momento de diligenciar el apartado de dependencia y revisarlo de nuevo aparece un cero lo que impidió que los cargos quedaran con este apartado diligenciado
+
+OK 2020512:
+        OK: arreglar la asingación del árbol para que pueda procesar varios nodos en simulatánea para reubicación
+        OK: crear una fucnion que en edita_organigrama pueda eliminar uno de los examinados, por ejemplo para los vacios
+        OK: listar todos los examinados
+        OK: en las respuestas sacar una tabla con el detalle de todas las respuestas una por una
+        OK: generar una varaible aleatoria para minimizar el problema de cache
+
+OK 2020503:
+        OK: Cambiar el texto donde cuando se guarda la evaluación 
+        OK: FAQ 1 porque aparece gente que no conozca?
+        OK: FAQ 2 porque no salen todos mis compañeros?
+        OK: FAQ 3 como corrijo una asignación equivocada?
+        OK: FAQ 4 porque hay limitación en la cantidad de gente por rango?
+        OK: FAQ 5 porque aparezco yo?
+
+        OK:borrar_otraResp.php: pendiente hacer este script para borrar datos/minipp.dat {R:borrar_otraResp.php}
+        OK: arma_respuestas.html: crear una nueva función que despliegue menu exclusivo para trabajar con los archivos del servidor, de tal forma que permita controlar también llamados a los php así como reinicializar archivos de la BD
+        OK:arma_evalua4.html: RECUPERAR Respuestas Memorias: debe definir el error cuando no encuentra el archivo, está fallando en servidor{R: se cambió por arma_respuestas.html}
+
+OK: 20200502
+        OK:lograr que la función de arma_evalua2.html que guarda los archivos de respuesta en memoria 1 se transforme en una función más robusta que también guarde en el servidor, para guardar en el servidor bien, requiere seguramente usar algo parecido a la función de leeJSON para que sirva de integrador de todo y no sobreescriba, pero puede ser que se gnere un archivo aparte donde se vayan listando estos JSON y después otra que se integre dentro de datos/pp.txt
+        OK: archiva_organigrama: debe definir el error cuando no encuentra el archivo, está fallando en servidor
+        OK: hacer un método que deserialice el nuevo js que se creara en el servidor, separe el texo por /n y haga algo parecido a leeJSON para poblar arrRespuestas1, y una vez lo haya realizado entonces nuevamente lo guarde en el servidor{R: los botones de archivar en sevidor de arma_respuestas.html}
+
+OK: 20200424       
+        OK:20200520 incluir texto amigable diciendo que la evaluación no afectará las relaciones laborales {R- no se incluira en el app, está en el email de RRHH}
+        OK: resaltar que la autoevaluación es valida y requerida
+        OK: incluir explicación de cómo reubicar a la gente que está mal ubicada
+        OK: resaltar que pueden aparecer personas que no se conocen (hasta gente de otros equipos)
+        OK: resaltar que pueden no parecer todas las personas del equipo
+        OK: solicitud: desplegar una mejor explicación cuando no deja cargar varios funcionarios en un percentil estrecho (mejorar la pregunta?)
+        OK: sacar la respuestas de cada evaluado versión tabla {R-arma_evalua4.html}
+        OK: validar incluir siempre todos los subalternos (sin que sumen) al total de evaluaciones {R- se estableció un contador adicional}
+
+
+OK 20200410:
+        OK: Montar evalua_dsmpn.js en un servidor público para no tener que enviar el HTML a cada persona (así lo anterior no se requiere) {se monto estático aws}
+        OK: Ya está funcionando la página, para que ande se requiere un JSON adecuado con la info de los arreglos básicos, ahora es esa creación de info la que está pendiente.
+        OK: Sacar los listados de evaluados y evaluadores(estudiantes) a partir del organigrama
+            OK: crear un nuevo .js: reciba organigrama, listado examinados (en json?): y cree el objeto evaluador y OK: cree los json para las páginas para el suguiente paso
+        OK: Transformar esos listados en JSON que sirva para cargar evalua_dsmpn.js {R-fue muy complicado, al hacer JSON.stingify sobre cadenas que ya estaban JSON.stringyfy devolveres con JSON.parse se volvió casi imposible por los caracteres excapados. Finalmente salvó la causa aplicar una funcion String.raw`TEXTO LITERAL` que además usa unos caracteres absurdos!!! pero se logró }
+        OK: Verificr como lograr que el HTML funcione enviándolo a alguien sin ayuda de un servidor web local {R-solo se requiere que todos los archivos estén en la misma carpeta}
+        OK: Hacer que la funcionalidad de arbol.js no se realice sobre un arbol artificial sino sobre un arbol que que pueda cargar de memoria, el cual se debe ya trabajar desde el editor de organigramas {R-se integró todo desde edita_organigrama.html}
+        OK: Arreglar la inclusión del sueldo en el editor{R- se arregla el método .edita}
+
+OK 20200501:
+        OK: Lograr tener permisos para escribir archivos {desde la consola SSH de aws, con el comando chmod 666 o 777 para una carpeta creada desde la consola linux ssh}
+        OK: Estoy configurando la primera interacción entre  js_canal.php y php_canal.js, creo que ya está listo para mandar a subir al servidor y hacer la primera prueba {R-se logró a partir de usos de FORM SUBMIT, aunque hay otras váis agauntó, el problema ahora es de permisos}
+        https://stackoverflow.com/questions/133925/javascript-post-request-like-a-form-submit
+
+OK: 20200430:
+        OK: arma_evalua4: incluir listado de evaluadores
+        OK: arma_evalua4: incluir totales al final de la tabla
+
+OK 20200423
+        OK: que en arma_evalua4.html se puedan ver los nombres de los evaluados. {R-se uso la posicion en arrEvaluados }
+
+OK 20200418:
+        OK: hacer que arma_evalua.js funcione a partir del JSON del arreglo generado por arbol.js... ahorita funciona llamando siempre a arbol.js y "recreando" el arreglo cada vez. Debe cambiarse para que tenga algo fijo {R - ver abajo}
+
+OK 20200421
+        OK: Cuando se crean las evaluaciones, sacar un consolidado de cuantas personas evaluan a cada persona {R-conteo de evaluados y evaluadores}
+
+        OK: Montar un js que pueda recopilar los JSON con respuestas de evaluación y adicionalmente genere resultados para cada evaluado {R-se montado sobre arma_evalua4.html, tiene un ordenador de arreglos que no es muy eficiente y requiere una forma mas bonita de mostrar resultados, no está sacando los nombres de los evaluados aun}
+   
+OK 20200409
+        OK: me esta mmamando gallo la serialización del objeto, creo que por la forma en que estoy creando el arreglo/objeto el cual parece no soportar muy bien los nombres. R-estaba creando los objetos de forma inadecuada con [] en vez de {}
+
+OK 20200318
+        OK: se debe arreglar los parametros del onclick, porque actualmente está pegado en la pregunta 1 (creo) y por tanto solo funciona bien para una de las preguntas, las demás direccionan a la uno. De pronto no es del onclick, sino de redefinir el objeto oPgregunta adecuadamente en la funcion {R-arreglado}
+
+OK 20200314 
+        ok: estoy separando evalua.js en dos archivos con la siguiente idea:
+            evalua.js: especifica la estructura genérica de evaluación con distractores, preguntas, examenes, temas_evaluados, estudiantes
+            evalua_dsmpn.js: extiende la especificación para asignar un grupo especifico de "sujetos evaluados" a un determinado "evaluador" con base en un examen
+            OK Pendiente arreglar el llamado a la función de onclick en el editor de examen para que referencie las posiciones de los objetos

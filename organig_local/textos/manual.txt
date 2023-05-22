@@ -1,0 +1,46 @@
+MANUAL FUNCIONAL DE ADMINISTRADOR
+
+20210705
+El nuevo index de la web es log_login.php
+Una vez actualizado el archivo bd_arrlistas.js, tambiéns se requieren reiniciar los archivos donde se guarda la información de respuestas:
+  datos/minipp.dat (0 bytes)
+  datos/bd_otrasResp.js  (22 bytes: arrGlOtrasResp = [] ; )
+  datos/pp.txt (0 bytes)
+  datos/bd_respuestas.js  (25 bytes: glTextoArrResp1 = '[]' ; )
+
+20210704
+En arma_respuestas.html (BOTONES EN ORDEN DE USO:)
+  0.RECUPERAR Resp Servidor: ver abajo... es pare validar qué respuestas están archivadas ya
+  1.JS NEW Resp Servidor(php): llama a creaBD_otraRespJS convierte el texto de datos/minipp.dat (que es el archivo que va recopilando las respuestas a las evaluciones de cada evaluador) en un archivo de JS que guarda en archivo datos/bd_otrasResp.js
+    ...esperar el cargue del JS se demora con varios registros¿?
+  2.REINICIO Nuevas Resp(php): borra el contenido de datos/minipp.dat
+  3.RECUPERAR Resp Servidor: lee el JSON que está en archivo datos/bd_respuestas.js con la función oEvalDsmp.recuperaServerJSON(), creo que JS queda en arrRespuestas1, después imprime a html
+  ->esperar unos minutos acá puede haber algún lío de cache... hacia el siguiente paso
+  ->recargar directamente desde la barra de direcciones haciendo ENTER
+  4.INTEGRAR Nuevas Resp: llama la funión oEvalDsmp.integraGlobalesJS() la cual inicialmente replica la acción del botón 3 (llenando arrRespuestas1) y posteriormente sigue llenando arrRespuestas1 con la info que está en el arreglo global arrGlOtrasResp 
+  5.ARCHIVAR Resp Servidor texto(php): llama js_canal.php que utiliza como insumo arrRespuestas1 para ser guarado en un archivo de texto. Parece que pregunta el nombre y creo que debe ser "pp".
+  6.JS Resp Servidor(php): llama a creaBD_respuestasJS que lee el contenido de datos/pp.txt lo convierte en JS y lo guarda en datos/bd_respuestas.js
+    ...esperar el cargue del JS se demora con varios registros¿?
+  7.RECUPERAR Resp Servidor: lee el JSON que está en archivo datos/bd_respuestas.js con la función oEvalDsmp.recuperaServerJSON(), creo que JS queda en arrRespuestas1, después imprime a html (en este caso el llamado es para verificar que el nuevo JSON haya incorporado últimas respuestas)
+  8. NEW Resp Servidor(php): llama a creaBD_otraRespJS, como este trae las respuestas de evaluadores nuevos, es para verificar que no haya nuevas respuestas a procesar
+  Por Filezilla se puede veirifcar también que los archivos en datos/ minipp.dat y bd_otrasResp.js estén en tamaño mínimo
+
+
+20210625
+Cómo genero los listados de evaluación? 
+    R:desde edita_organigrama2.html hacer click en el Botón "Generar listado de Evaluación"
+Cómo activo los listados de evaluacion?
+    Despues de hacer click en el Botón "Generar listado de Evaluación" se generara un JSON en la ventana del formulario
+    Este JSON se debe entonces manualmente llevar al archivo bd_arrlistas.js
+    Para lograr esto entonces se debe actualizar el archivo bd_arrlistas.js en el servidor local y proceder a reemplazar el que está en el servidor de producción
+Cómo desactivo la lista de evaluaciones?
+    Parece ser que es incluyendo una JSON vacío en bd_arrlistas.js
+    Se tiene ahora el archivo bd_arrlistas_apagado.js que hace justamente lo que dice línea anterior
+Cómo activo la evaluacion de desempeño?
+    Activar el contenido del archivo arma_evalua2.html creando copia y renombrando arma_evalua2_bkp_real.html
+Cómo desactivo la evaluacion de desempeño?
+    Activar el contenido del archivo arma_evalua2.html crenado copia y renombrando arma_evalua2_apagado.html
+
+20210306
+Donde están archivados los datos del organigrama? R:datos/bd_organigrama.js
+    

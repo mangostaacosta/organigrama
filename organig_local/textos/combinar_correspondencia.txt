@@ -1,0 +1,254 @@
+Email,Nombre,Codigo,Clave
+miguel.ricaurte@ibero.edu.co,Miguel Ricaurte,0,vj828
+juan.samper@ibero.edu.co,Juan Ramon Samper Samper ,1,ov917
+oscar.gomez@ibero.edu.co,Oscar Ivan Gómez Rincón ,2,bt1338
+johanna.moscoso@ibero.edu.co,Johanna Rocio Moscoso Herrera,3,bp774
+ana.enciso@ibero.edu.co,Ana Catalina Enciso Naranjo,4,!o696
+monica.perdomo@ibero.edu.co,Monica Yohana Perdomo Galindo,5,jp696
+loren.ramirez@ibero.edu.co,Loren Milena Ramirez Rodriguez,6,fp694
+leydy.saenz@ibero.edu.co,Leydy Andrea Saenz León,7,ef743
+esperanza.gaona@ibero.edu.co,Esperanza Gaona Perez,8,ft829
+angelica.valencia@ibero.edu.co,Angelica Valencia Duque,10,fo654
+adriana.caballero@ibero.edu.co ,Adriana Maritza Caballero Galindo ,11,je610
+susan.cruz@ibero.edu.co,Susan Alexis Cruz Casas,12,bv655
+adelaida.reyes@ibero.edu.co,Adelaida Reyes Rodriguez,13,me644
+liliana.arias@ibero.edu.co,Liliana Sofia Arias Escobar,14,jj1045
+sandra.sanchez@ibero.edu.co,Sandra Milena Sanchez Sanchez,15,eb676
+ivonne.rojas@ibero.edu.co,Ivone Audrey Rojas Plazas ,16,ow693
+rocio.noguera@ibero.edu.co,Alba Rocio Noguera Luque ,17,bm702
+ruth.pinto@ibero.edu.co,Ruth Pinto Saenz,18,iv815
+liliana.fuquen@ibero.edu.co,Liliana Elizabeth Fuquen Giral ,19,jj657
+haddy.martinez@ibero.edu.co,Haddy Viviana Martinez Yate,20,eb692
+ander.cortes@ibero.edu.co,Ander Cortes Silva,21,fo773
+sara.moreno@ibero.edu.co,Sara Lucia Moreno Moreno,22,bb709
+oscar.walteros@ibero.edu.co,Oscar Yezid Walteros Rangel ,23,bt769
+daniel.roque@ibero.edu.co,Daniel Isaac Roque,24,jb773
+luz.angel@ibero.edu.co,Luz Esperanza Angel Torres ,25,!v696
+edgar.rodriguez@ibero.edu.co,Edgar Rodriguez Afanador,26,be651
+deysy.medina@ibero.edu.co,Deysy Cristina Medina Ramirez,27,tf677
+oscar.walteros@ibero.edu.co,Oscar Yezid Walteros Rangel,28,bt712
+oscar.gualdron@ibero.edu.co,Oscar Hernando Gualdron Blanco ,29,bt654
+vanesa.ramirez@ibero.edu.co,Vanesa Ramirez Escobar,30,fb744
+silvia.quintero@ibero.edu.co,Silvia Patricia Quintero Diaz,31,wj1538
+veronica.jimenez@ibero.edu.co,Veronica Maritza Jimenez Contreras,32,pf669
+maria.cardenas@ibero.edu.co,Maria del Pilar Cardenas Valencia,33,jb680
+leydi.rios@ibero.edu.co,Leydi Milena Rios Gil,34,ef775
+oscar.pinzon@ibero.edu.co,Oscar Ivan Pinzon Manrique ,35,bt737
+diego.ramirez@ibero.edu.co,Diego Ramirez Daza ,36,hj805
+janneth.martin@ibero.edu.co,Janneth Martin Villamil,37,ob760
+josue.olarte@ibero.edu.co,Josue Olarte Rodriguez,38,vp757
+erika.ramirez@ibero.edu.co,Erika Zulay Ramirez Leon,39,ls745
+adriana.robayo@ibero.edu.co,Adriana Maria Robayo Churque,40,je723
+adriana.castellanos@ibero.edu.co,Adriana Mercedes Castellanos Vergara ,41,je649
+lina.pacheco@ibero.edu.co,Lina Maria Pacheco Palencia ,42,bj696
+luz.chaves@ibero.edu.co,Luz Andrea Chaves Alvarez,43,!v733
+sandy.alfonso@ibero.edu.co,Sandy Yorleny Alfonso Lesmes ,44,eb706
+fabian.toro@ibero.edu.co,Fabian Toro Sanchez ,45,jb790
+camila.sandoval@ibero.edu.co,Camila Aurora Sandoval Skinner ,46,jb690
+deisy.poveda@ibero.edu.co,Deisy Milena Poveda Lopez,47,tf824
+yenny.cruz@ibero.edu.co,Yenny Carolina Cruz Gil,48,of754
+lucy.cardenas@ibero.edu.co,Lucy Janeth Cardenas Orjuela,49,zv646
+katherin.garzon@ibero.edu.co,Katherin Viviana Garzon Benitez,50,ib673
+leidy.cortes@ibero.edu.co,Leidy Liliana Cortes Gonzalez,51,ef689
+fernanda.sarmiento@ibero.edu.co,Fernanda Carolina Sarmiento Castillo,52,of677
+edgar.rubiano@ibero.edu.co,Edgar Eduar Rubiano Barrera,53,be719
+gloria.rodriguez@ibero.edu.co,Gloria Elsa Rodriguez Jimenez,54,sm680
+leidy.camacho@ibero.edu.co,Leidy Carolina Camacho Salgado,55,ef713
+carlos.enriquez@ibero.edu.co,Carlos Andres Enriquez Lozano,56,mb1047
+dayilmar.alvarez@ibero.edu.co,Dayilmar Arley Alvarez Monsalve,57,jb681
+jenny.camargo@ibero.edu.co,Jenny Lorena Camargo Conde,58,of704
+dario.cuellar@ibero.edu.co,Dario Cuellar Morales,59,jb766
+lina.geney@ibero.edu.co,Lina Patricia Geney Escudero,60,bj704
+diego.ortega@ibero.edu.co,Diego Fernando Ortega Franco,61,hj703
+carolina.cuevas@ibero.edu.co,Carolina Alejandra Cuevas Taborda,62,pb680
+natalia.velandia@ibero.edu.co,Natalia Velandia Ovalle,63,bb746
+david.cuellar@ibero.edu.co,David Cuellar Morales,64,jb758
+cavillanueva@techglobal.com.co,Carlos Andres Villanueva Manjarres,65,mb1316
+damartinez@techglobal.com.co,Diego Armando Martinez Vargas ,66,hj717
+smunoz@techglobal.com.co,Santiago Muñoz Martin,67,ub788
+wmaldonado@techglobal.com.co,Williams Andres Maldonado Vela ,68,mj707
+eapulido@techglobal.com.co,Edwin Adrian Pulido Jaramillo ,69,je716
+nmendez@ibero.edu.co,Natalia Mendez Mendez ,70,bb782
+daniel.casallas@ibero.edu.co,Franklin Daniel Casallas Vanegas ,71,os701
+amtellez@techglobal.com.co,Ana Maria Tellez Pinilla ,72,!o742
+liliana.urbano@ibero.edu.co,Jaimie Liliana Urbano Contreras,73,nb723
+angel.cordoba@ibero.edu.co,Angel Gustavo Cordoba Lozada,74,fo724
+laura.chapeton@ibero.edu.co,Laura Daniela Chapeton Pastor,75,sb723
+karen.solano@ibero.edu.co,Karen Yuliana Solano Monroy,76,fb735
+krizia.nunez@iberoamericana.edu.co,Krizia Janina Nuñez Cordoba ,77,{s724
+sandra.pena@ibero.edu.co,Sandra Clemencia Peña Alonso,78,eb719
+adelaida.arenas@ibero.edu.co,Maria Adelaida Arenas Rodriguez,79,jb1042
+sergio.turriago@ibero.edu.co,Sergio Santiago Turriago Martinez,80,hf704
+william.fonseca@ibero.edu.co,William Fonseca Espindola,81,mj782
+lizeth.beltran@ibero.edu.co,Lizeth Katherine Beltran Garzon,82,fj723
+diego.carreno@ibero.edu.co,Diego Alexander Carreño Pachón ,83,hj718
+aristobulo.rodriguez@ibero.edu.co,Aristóbulo Rodriguez Tola ,84,ts707
+masanchez@amarthya.com,Michael Andres Sanchez Pinzón ,85,ij697
+jdperez@amarthya.com,Juan David Perez Fonseca ,86,ov736
+ivonne.castañeda@ibero.edu.co,Ivonne del Socorro Castañeda Perdomo,87,ow1299
+rodrigo.cuevas@ibero.edu.co,Rodrigo Cuevas Martinez,88,sp746
+nataly.alba@ibero.edu.co,Nataly Alba Rojas,89,bb849
+nixon.villalba@ibero.edu.co,Nixon Aidiwer Villalba Rodriguez,90,pj685
+jessica.paez@ibero.edu.co,Jessica Brigit Paez Lopez,91,tf725
+diana.alvarez@ibero.edu.co,Diana Catalina Alvarez Suarez,92,oj707
+paula.rodriguez@ibero.edu.co,Paula Andrea Rodriguez Lopez,93,mb728
+kelldary.pinilla@ibero.edu.co,Kelldary Alejandra Pinilla Peña,94,mf700
+emis.mora@ibero.edu.co,Emis Liliana Mora Berrio,95,tn735
+yennyfer.mora@ibero.edu.co,Yennyfer Alexandra Mora Moreno,96,of702
+yessika.quiroga@ibero.edu.co,Yessika Quiroga Valderrama,97,tf739
+tatiana.ramirez@ibero.edu.co,Tatiana Alexandra Ramirez,98,jb737
+jeisson.silva@ibero.edu.co,Jeisson Javier Silva Cano,99,tf732
+claudia.melo@ibero.edu.co,Claudia Johana Melo Jurado,100,vm735
+melisa.murgas@ibero.edu.co,Melisa Yaneth Murgas Villalba,101,jf708
+ingrid.mora@ibero.edu.co,Ingrid Dayana Mora Moreno,102,so753
+jose.roncancio@ibero.edu.co,Jose Luis Roncancio Gonzalez,103,fp1069
+daniel.ortiz@ibero.edu.co,Daniel Ortiz Arias,104,jb840
+martha.sanchez@ibero.edu.co,Martha Viviana Sanchez Pardo,105,ub701
+pedro.gutierrez@ibero.edu.co,Pedro David Gutierrez Beltran,106,sf685
+lamartinez@amarthya.com,Luz Angela Martinez Prieto,107,!v805
+ilchaux@amarthya.com,Ilba Luz Chaux Murcia,108,bm704
+ahuertas@amarthya.com,Alexandra Huertas Mancipe,109,ym667
+diana.fuquene@amarthya.com,Diana Elizabeth Fuquene Jimenez,110,oj630
+contratacion@ibero.edu.co,Erzsebet Csillag Gyorgy Sanchez ,111,ts626
+mayra.torres@ibero.edu.co,Mayra Alejandra Torres Salguero ,112,sb624
+nelson.camargo@ibero.edu.co,Nelson Andres Camargo Guillombo,113,tf675
+natalia.becerra@ibero.edu.co,Natalia Andrea Becerra Torres,114,bb695
+paula.ruiz@ibero.edu.co,Paula Fernanda Ruiz Poveda ,115,mb720
+victor.molina@ibero.edu.co,Victor Henry Molina Casalas,116,uj612
+juan.pava@ibero.edu.co,Juan Carlos Pava Benavides,118,ov641
+milena.garcia@ibero.edu.co,Milena Garcia,119,fj810
+raul.acosta@ibero.edu.co,Raul Mauricio Acosta Lema,120,mb1083
+spgalindo@ibero.edu.co,Sandra Patricia Galindo Beltran ,121,eb843
+maria.holguin@ibero.edu.co,Maria Camila Holguin Chaux,122,jb757
+tatiana.durango@ibero.edu.co,Tatiana Durango Yepes,123,jb1142
+hector.piedra@ibero.edu.co,Hector Maximiliano Piedra Quilarque,124,uf640
+marly.bastos@ibero.edu.co,Marly Gabriela Bastos Parada,125,mb675
+andreina.gonzalez@ibero.edu.co,Andreina Areanyelis Gonzalez Malpica,126,so636
+carolina.urrutia@ibero.edu.co,Carolina Urrutia Ponton,127,pb714
+juan.rodriguez@ibero.edu.co,Juan Camilo Rodriguez Cardona,128,ov669
+wilson.hernandez@ibero.edu.co,Wilson Andres Hernandez Chavez ,129,tj658
+wendy.velandia@ibero.edu.co,Wendy Loraine Velandia Sanchez ,130,ef658
+leydy.montenegro@ibero.edu.co,Leydy Viviana Montenegro Fonseca,131,ef715
+edwin.infante@ibero.edu.co,Edwin Ignacio Infante Rozo,132,je1064
+dmtorres@ibero.edu.co,Dennis Maritza Torres Mayorga,134,of1488
+leidy.aldana@ibero.edu.co,Leidy Yohana Aldana Beltran,135,ef763
+mary.amaya@ibero.edu.co,Mary Angelica Amaya Cordoba,136,zb744
+wendy.bohorquez@ibero.edu.co,Wendy Jheraldine Bohorquez Lopez,137,ef741
+sebastian.cortes@ibero.edu.co,Sebastián Cortes Pizza,138,bf802
+maria.florez@ibero.edu.co,Maria Alejandra Florez Marquez,139,jb733
+karen.torres@ibero.edu.co,Karen Tatiana Torres Guzman,140,fb757
+linda.monsalve@ibero.edu.co,Linda Lucia Monsalve Tisoy,141,ej764
+cristian.apache@ibero.edu.co,Cristian Alejandro Apache Garcia ,142,ts731
+pablo.castiblanco@ibero.edu.co,Pablo Jose Castiblanco Aguirre ,143,mb747
+sergio.colmenares@ibero.edu.co,Sergio Alejandro Colmenares Garcia ,144,hf702
+dajana.morales@ibero.edu.co,Dajana Madelein Morales Rojas ,145,bb741
+diana.peñuela@ibero.edu.co,Diana del Pilar Peñuela Alvarez,146,oj723
+cristian.diaz@ibero.edu.co,Cristian Camilo Diaz Rodriguez,147,ts726
+luisa.gomez@ibero.edu.co,Luisa Fernanda Gomez Hoyos ,148,tv750
+vanessa.daccach@ibero.edu.co,Vanessa Daccach Gonzalez,149,fb984
+paola.pedraza@ibero.edu.co,Diana Paola Pedraza Sanchez,150,oj745
+angie.lopez@ibero.edu.co,Angie Milena Lopez Moreno,151,jo539
+andres.cuartas@ibero.edu.co,Andres Fernando Cuartas Melendez,152,so715
+carol.gonzalez@ibero.edu.co,Carol Yenni Gonzalez Suarez,153,pb740
+jose.preciado@ibero.edu.co,Jose Alejandro Preciado Sarmiento,154,fp703
+gladys.acosta@ibero.edu.co,Gladys Consuelo Acosta Guerra,155,em732
+deisy.morales@ibero.edu.co,Deisy Yurany Morales Barrios ,156,tf732
+rommel.myers@techglobal.com.co,Rommel Oswaldo Myers Guevara ,157,np1048
+vmrueda@techglobal.com.co,Victor Manuel Rueda Aldana ,158,uj794
+jemedina@techglobal.com.co,Jorge Eliecer Medina Parra,159,hp668
+agvargas@techglobal.com.co,Andres Gerardo Vargas Rodriguez ,160,so633
+jimmy.castillo@ibero.edu.co,Jimmy Alexander Castillo Hernandez ,161,nj621
+digomez@techglobal.com.co,Diego Ivan Gomez ,162,hj767
+diego.acosta@ibero.edu.co,Diego Alejandro Acosta Ortiz ,163,hj739
+csbautista@techglobal.com.co,Claudia Susana Bautista Ruiz ,164,vm649
+marcela.lesmes@ibero.edu.co,Wendy Marcela Lesmes Piraquive,165,ef644
+Ivan.rincon@ibero.edu.co,Ivan Camilo Rincon Perez,166,ow750
+jcasadog@planetadeagostini.es,Javier Casado Gonzalez ,167,jb1038
+margarita.montoya@ibero.edu.co,Margarita Maria Montoya Arango,168,hb1209
+johanna.ramos@ibero.edu.co,Johanna Andrea Ramos,169,bp802
+jeniffer.vargas@ibero.edu.co,Jennifer Vargas Pinzon ,170,of1134
+njmorera@ibero.edu.co,Nelson Javier Morera Rincon,171,tf1255
+maria.aguilar@ibero.edu.co,Maria Cecilia Aguilar Duran,172,jb755
+brigith.rodriguez@ibero.edu.co,Brigith Natalia Rodriguez Acevedo,173,hs717
+heidy.prieto@ibero.edu.co,Heidy Lorena Prieto Ahumada ,174,ef741
+saira.zamudio@ibero.edu.co,Saira Lorena Zamudio Torres,175,sb752
+adriana.gil@ibero.edu.co,Adriana Yicelt Gil Garcia ,176,je756
+melanie.baquero@ibero.edu.co,Melanie Yulieth Baquero Lopez ,177,bf726
+paula.leguizamon@ibero.edu.co,Paula Valentina Leguizamon Gil ,178,mb722
+alejandro.garcia@ibero.edu.co,Alejandro Emilio Garcia Molano ,179,km727
+maria.gil@ibero.edu.co,Maria Isabel Gil Huertas,180,jb780
+maria.castaneda@ibero.edu.co,Maria Concepcion Castañeda Leon ,181,jb716
+fabian.concha@ibero.edu.co,Fabian Concha Fernandez,182,jb1558
+damelis.aguilar@ibero.edu.co,Damelis Aguilar Zapata,183,fb759
+anderson.lara@ibero.edu.co,Anderson Lara Sipagauta,184,fo746
+andrea.lopez@ibero.edu.co,Andrea Lopez Lizarazo,185,so749
+larry.tavera@ibero.edu.co,Larry Antony Tavera Parra,186,sb698
+mvbernal@ibero.edu.co,Maria Valentina Bernal Torres,187,jb699
+mauricio.chamorro@ibero.edu.co,Mauricio Chamorro Bello,188,sb724
+diany.galeano@ibero.edu.co,Diany Marcela Galeano Echeverry,189,oj689
+cristian.bernal@ibero.edu.co ,Cristian Felipe Bernal Camargo ,190,ts661
+jorge.perea@ibero.edu.co,Jorge Luis Perea Yance,191,hp744
+karen.puerto@ibero.edu.co,Karen Natalia Puerto Castillo ,192,fb692
+esneider.quiroga@ibero.edu.co,Esneider Quiroga Cortes ,193,ft709
+lina.soler@ibero.edu.co,Lina Maria Soler Barrera ,194,bj723
+denys.muni@ibero.edu.co,Denys Hedith Muni Tirado ,195,zf730
+juan.niño@ibero.edu.co,Juan Manuel Niño Aldana,196,ov731
+nelson.balaguera@ibero.edu.co,Nelson Balaguera Ramirez,197,tf757
+fabian.vargas@ibero.edu.co,Fabian Andres Vargas Beltran  ,198,jb698
+claudia.restrepo@ibero.edu.co,Claudia Restrepo Gonzalez ,199,vm725
+dayana.tapasco@ibero.edu.co,Dayan Andrea Tapasco Caicedo,200,bb724
+helmuth.navas@ibero.edu.co,Helmuth Steven Navas Landazuri,201,nf706
+juliana.ricaurte@ibero.edu.co,Maria Juliana Ricaurte Silva,202,jb719
+leidy.rugeles@ibero.edu.co,Leidy Esther Rugeles Rodriguez,203,ef729
+maria.abreu@ibero.edu.co,Maria Fernanda Abreu Rodriguez ,204,jb720
+bilma.lemus@ibero.edu.co,Bilma Matilde Lemus Rondon  ,205,nj724
+fpineda@layna.com.co,Ferley Alonso Pineda Cely ,206,mf736
+aoromero@ibero.edu.co,Andrés Octavio Romero Castro ,207,so1238
+angela.herrera@ibero.edu.co,Angela Lizeth Herrera Mora,208,fo743
+genny.solano@ibero.edu.co,Genny Marysol Solano Garzon ,209,of732
+ginna.campo@ibero.edu.co,Ginna Marcela Campo Castro,210,oj743
+jeisson.molina@ibero.edu.co,Jeisson Fabian Molina Ciro ,211,tf738
+natalia.hernandez@ibero.edu.co,Natalia Esperanza Hernandez Cabra ,212,bb697
+yina.ovalles@ibero.edu.co,Yina Paola Ovalle Gonzalez,213,bj746
+valentina.lopez@ibero.edu.co,Valentina Lopez Gutierrez ,214,fb746
+diana.orjuela@ibero.edu.co,Diana Carolina Orjuela Restrepo,215,oj711
+mariajose.barreto@ibero.edu.co,Maria Jose Barreto Alonso,216,jb753
+yeraldine.martinez@ibero.edu.co,Yeraldine Martinez Montoya,217,bf746
+carol.pedraza@ibero.edu.co,Carol Yurani Pedraza Trujillo ,218,pb720
+falmanza@layna.com.co,Fabian Danilo Almanza Benavides,219,jb703
+angie.garzon@ibero.edu.co,Angie Lizeth Garzón Garcia,220,jo743
+rdelles@ibero.edu.co,Ruben Dario Elles Trujillo,221,fv729
+mvbernal@ibero.edu.co,Maria Fernanda Bernal Rodriguez,222,jb708
+melissa.manga@ibero.edu.co,Melissa Manga Quintana ,225,jf835
+anamaria.gonzalez@ibero.edu.co,Ana Maria Gonzalez Combariza ,226,!o710
+adriana.castro@ibero.edu.co,Adriana Castro Parada,227,je775
+auxiliar.marketing1@ibero.edu.co,Brayan Andrey Laverde Gaspar,228,zs728
+alejandro.bastidas@ibero.edu.co,Alejandro Alberto Bastidas Araujo,229,km702
+laura.ramos@ibero.edu.co,Laura Daniela Ramos Mendez ,230,sb656
+maira.usaquen@ibero.edu.co,Maira Alejandra Usaquen Yepes,231,sb710
+daperez@amarthya.com,Diego Alberto Perez Garcia ,232,hj1073
+zuleima.vanegas@ibero.edu.co,Zuleima del Carmen Vanegas Morales ,233,fv671
+emarin@amarthya.com,Estefania Marin Bulla ,234,ft1092
+john.lopez@ibero.edu.co,John Alexander Lopez Leon ,235,op744
+francisco.caicedo@ibero.edu.co,Francisco Javier Caicedo Aguilar ,236,os704
+bmsandoval@amarthya.com,Brenda Milena Sandoval Lopez ,237,os730
+njsolano@amarthya.com,Nidia Johana Solano Garcia ,238,jj746
+yainfante@amarthya.com,Yimin Alben Infante Verdugo ,239,jj736
+diana.gomez@ibero.edu.co,Diana Maritza Gomez Castro ,240,oj749
+alvaro.gonzalez@ibero.edu.co,Alvaro Javier Gonzalez Caraballo ,241,bm701
+yhrojas@amarthya.com,Yovanna Hyde Rojas Echeverry ,242,bp1011
+masastoque@amarthya.com,Maria Cristina Sastoque Ramirez,243,jb700
+consuelo.roa@iberoamericana.edu.co,Consuelo Roa Muñoz ,244,tp590
+ylozano@amarthya.com,Yolanda Lozano Castellanos ,245,bp841
+luis.centina@ibero.edu.co,Luis Fernando Cetina Bonilla ,246,tv520
+juan.gonzalez@ibero.edu.co,Juan Raul Gonzalez Solis,247,ov548
+christian.garzon@ibero.edu.co,Christian Sebastian Garzon Valderrama ,248,ji488
+christian.santamaria@ibero.edu.co,Cristian Fernando Santamaria Rivera ,249,ts494
+olpatino@amarthya.com,Olga Lucia Patiño Pulido,250,bm675
+hernan.puentes@amarthya.com,Hernán Steven Puentes Fandiño ,251,of728
+fredy.leon@ibero.edu.co,Fredy Yesid Leon Mesa,252,es776
+jrcastro@amarthya.com,Jehison Rafael Castro Ortiz ,253,jf726
+jpochoa@ibero.edu.co,Juan Pablo Ochoa Acosta ,254,ov762
+juan.aguilar@ibero.edu.co,Juan Daniel Aguilar Pineda ,255,ov719
+carolina.velandia@ibero.edu.co,Carolina Velandia Onofre ,256,pb726
+sandra.cabrera,Sandra Ivone Cabrera Riveros ,257,eb633

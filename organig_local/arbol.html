@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arbolator</title>
+</head>
+<body>
+    hola soy arbolator!!<br>
+    <form action="" method="get" id="F1">
+        <input type="radio" name="hola" id="a1" value="a1" onclick="cambiaTemp('a1','F1')">llega
+        <input type="checkbox" name="adios" id="a2" value="a2" >va<br>
+        <input type="radio" name="hola" id="a3" value="a3" onclick="cambiaTemp('a3','F1')">llega
+        <input type="checkbox" name="adios" id="a4" value="a4" >va<br>
+        <input type="radio" name="hola" id="a5" value="a5" onclick="cambiaTemp('a5','F1')">llega
+        <input type="checkbox" name="adios" id="a6" value="a6" >va<br>
+        <input type="radio" name="hola" id="a7" value="a7" onclick="cambiaTemp('a7','F1')">llega
+        <input type="checkbox" name="adios" id="a8" value="a8" >va<br>
+    </form>  
+    
+    <div id="salidaHtml"></div>
+    <div id="salida"></div>
+    <div id="salida2"></div>
+
+    <script src="datos_nodo.js"></script>
+    <script src="arbol.js"></script>
+    <script src="arbol_llena.js"></script>
+    <script src="ensayo_arbol2.js"></script>
+
+    <a href="edita_organigrama.html">Editar el Organigrama</a>
+
+    <script>
+        organigrama = llenaOrg2( 16 ) ;
+        str1 = "0.0.0.11." ;
+        str2 = "0.0.0.3." ;
+        document.write("<br>") ;
+        if ( organigrama.comparaRuta( str1 , str2 ) > 0 ){
+            document.write( str1 + " es mayor que " + str2 ) ;
+        }else{
+            document.write( str2 + " es mayor que " + str1 ) ;
+        }
+        var $miarr = [] ;
+        $miarr[0] =  str1 ;
+        $miarr[1] =  str2 ;
+        //$miarr.sort( organigrama.comparaRuta(a,b)) ;
+        $miarr.sort( function(a,b){
+            return organigrama.comparaRuta( a , b ) ;
+        }) ;
+        document.write("<br>") ;
+        document.write( $miarr ) ;
+
+
+    </script>
+
+</body>
+</html>
