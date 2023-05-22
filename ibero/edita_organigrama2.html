@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" type="text/css" href="css/estilo01.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+
+    <title>Edita Organigrama 2</title>
+</head>
+<body>
+  <script src="encabezado.js"></script>
+  <p>Hola soy edita_organigrama2.html</p>
+    
+  <div id="salidaHtml"></div>
+  <div id="salida"></div>
+  <div id="salida2"></div>
+  <div id="salida3"></div>
+
+  <script src="datos_nodo.js"></script>
+  <script src="arbol.js"></script>
+  <script src="arbol_llena.js"></script>
+  <script>
+      organigrama = llenaOrg2( 2 ) ;
+      //organigrama = llenaOrg1() ;
+  </script>
+  <script src="edita_organigrama.js"></script>
+  <script src="archiva_organigrama.js"></script>
+  <script src="datos/bd_organigrama.js"></script>    
+  <script>
+      //organigrama = llenaOrg2( 16 ) ;
+      organigrama.html() ;
+  </script>
+    
+</body>
+</html>

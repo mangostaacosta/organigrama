@@ -1,0 +1,78 @@
+
+/*
+*{
+    background-color: rgb(255, 238, 255) ;
+}
+/**/
+
+.centrado{
+    text-align: center;
+    /*margin: auto ;*/
+}
+
+div.QnA{
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    width: 400px;
+    height: 200px;
+    /*background-color: rgb(189, 185, 223) ;*/
+    color: rgb(62, 62, 62) ;
+    border: 2px solid blue ;
+    padding: 10px;
+    overflow: auto;
+}
+
+div.ibero{
+    position: fixed;
+    top: 5px;
+    right:10px;
+    /* width: 400px; */
+    /* height: 200px; */
+    /*background-color: rgb(189, 185, 223) ;*/
+    
+    overflow: auto;
+}
+
+/* div.QnA b {
+    /* background-color: rgb(189, 185, 223) ; 
+} */
+
+div.salidaHtml{
+    width: 900px;
+}
+
+div.salidaHtml p {
+    /* width: 1000px; */
+    padding: 10px;
+    background-color: rgb(235, 202, 235) ;
+    /* border: 2px solid blue ; */
+}
+
+div.pstatic{
+    position: static;
+    top: 150px;
+    left: 150px;
+}
+
+div.prelative{
+    position: relative;
+    top: 100px;
+    left: 600px;
+}
+
+div.pfixed{
+    position: fixed;
+    top: 50px;
+    left: 300px;
+}
+div.pabsolute{  /* por qué se perderán los textos?? */
+    position: absolute;
+    top: 50px;
+    right: 50px;    
+}
+div.psticky{  
+    position: sticky;
+    left: 75px;
+    bottom: 15px;  
+}

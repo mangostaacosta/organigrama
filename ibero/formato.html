@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Basic Table</h2>
+        <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>            
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="col-sm-2">Orig / Dest</th>
+              <th class="col-sm-2">Nodo</th>
+              <th>Cargo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="checkbox" name="mover" value="0">0 / <input type="radio" name="recibir" id="padre0" value="0" onclick="pintaOrganigrama( jerarquia , 'padre0' )">0 &gt;</td>
+              <td> 0.</td>
+              <td>soyRama:0&gt;inicial&gt;padre:NADIE!&gt;mi ID:0</td>
+            </tr>
+            <tr>
+              <td> <input type="checkbox" name="mover" value="1">1<input type="radio" name="recibir" id="padre1" value="1" onclick="pintaOrganigrama( jerarquia , 'padre1' )">1 &gt; </td>
+              <td>+0.0.</td>
+              <td>soyRama:0&gt;rectoría&gt;padre:inicial&gt;mi ID:1</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="mover" value="2">2<input type="radio" name="recibir" id="padre2" value="2" onclick="pintaOrganigrama( jerarquia , 'padre2' )">2 &gt; </td>
+              <td>++0.0.0.</td>
+              <td> soyRama:0&gt;secretaria general&gt;padre:rectoría&gt;mi ID:2</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="mover" value="3">3<input type="radio" name="recibir" id="padre3" value="3" onclick="pintaOrganigrama( jerarquia , 'padre3' )">3 &gt;</td>
+                <td>++0.0.1.</td>
+                <td>soyRama:1&gt;Sicologo medio universitario&gt;padre:rectoría&gt;mi ID:3</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="mover" value="4">4<input type="radio" name="recibir" id="padre4" value="4" onclick="pintaOrganigrama( jerarquia , 'padre4' )">4 &gt;</td>
+                <td>++0.0.2.</td>
+                <td>soyRama:2&gt;Asesor comercial DISOA&gt;padre:rectoría&gt;mi ID:4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    
+</body>
+</html>
+
+
+ <br><br>  <br>  <br><input type="checkbox" name="mover" value="5">5<input type="radio" name="recibir" id="padre5" value="5" onclick="pintaOrganigrama( jerarquia , 'padre5' )">5 &gt; ++0.0.3. soyRama:3&gt;Coordinador admisiones y registro&gt;padre:rectoría&gt;mi ID:5<br><input type="checkbox" name="mover" value="6">6<input type="radio" name="recibir" id="padre6" value="6" onclick="pintaOrganigrama( jerarquia , 'padre6' )">6 &gt; ++0.0.4. soyRama:4&gt;Coordinador registro y control&gt;padre:rectoría&gt;mi ID:6<br> z

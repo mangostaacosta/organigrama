@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/estilo01.css">
+    <title>arma_evalua2.html</title>
+</head>
+<body>
+    <script src="encabezado.js"></script>
+    <div id="ibero" class="ibero"><img src="logo_ibero.png" alt="logo_ibero"></div>
+    <div id="tituloHtml"></div>
+    <div id="salidaHtml" class="salidaHtml"></div>
+    <div id="salida"></div>
+    <div id="salidaTexto"></div>
+    <div id="QnA" class="QnA"></div>
+   
+    <script src="multiarr.js"></script>
+    <script src="evalua.js"></script>
+    <script src="evalua_dsmpn.js"></script>
+   
+    <script src="arma_evalua.js"></script>
+    <script src="bd_arrlistas.js"></script>
+
+    <script>
+        //Genera el objeto evaluador a partir de la info de evaluaciones asignadas que está "almacenado" en bd_arrlistas.js por tanto no requiere el organigrama. Ejecuta el aplicativo de evaluación
+        console.log("arrlistas antes de leer" ,  arrlistas ) ;
+        oEvalDsmp.leeArrAsignados( arrlistas ) ;
+        console.log("oMiEvalua" ,  oMiEvalua ) ;
+        //alert("stop") ;
+        oEvalDsmp.muestraInicio() ;
+    </script>
+
+</body>
+</html>

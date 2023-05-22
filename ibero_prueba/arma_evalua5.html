@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>arma_evalua5.html</title>
+</head>
+<body>
+    <script src="encabezado.js"></script>
+    <div id="tituloHtml"></div>
+    <div id="salidaHtml" class="salidaHtml"></div>
+    <div id="salida2"></div>
+    <div id="salidaTexto"></div>
+    
+   
+    <script src="datos_nodo.js"></script>
+    <script src="arbol.js"></script>
+    <script src="edita_organigrama.js"></script>
+
+
+    <!-- <script src="multiarr.js"></script>
+    <script src="evalua.js"></script>
+    <script src="evalua_dsmpn.js"></script> -->
+    <!-- <script src="arbol.js"></script>
+    <script src="ensayo_arbol2.js"></script> -->
+    <!-- <script src="arma_evalua.js"></script> -->
+    <script src="bd_arrlistas.js"></script>
+
+    <script>
+        //Genera el listado de claves para los evaluadores, a partir de la info de evaluaciones asignadas que está "almacenado" en bd_arrlistas.js por tanto no requiere los js del organigrama
+        console.log("arrlistas antes de leer" ,  arrlistas ) ;
+        //oEvalDsmp.leeArrAsignados( arrlistas ) ;
+        //var $html = oEvalDsmp.muestraClaves() ;
+        //document.getElementById( "salida" ).innerHTML = $html ;
+        organigrama.muestraEvaluaciones( arrlistas , 0 ) ;
+    </script>
+
+
+</body>
+</html>
